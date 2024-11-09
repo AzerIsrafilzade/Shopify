@@ -182,7 +182,15 @@ header button {
     
 } 
 
+.discovery h1 {
+    font-size: 50px;
+    
+}
 
+.discovery {
+    background-color:#799102;
+
+}
 
 
 @media (min-width: 768px) {
