@@ -27,14 +27,14 @@
 
     {
         "vision_name": "Shop Designer",
-        "vision_context": "Bring your brand to life effortlessly with our intuitive shop designer. No technical knowledge required—only your unique vision and creativity.",
+        "vision_context": "Bring your brand to life with our intuitive shop designer. No technical knowledge required—only your unique creativity.",
         "vision_nav": "Design with Purpose"
         
     },
 
     {
         "vision_name": "Business Launcher",
-        "vision_context": "Build your online presence with ease using our friendly store builder. No coding skills necessary—just your passion and products, and we'll help with the rest.",
+        "vision_context": "Build your online presence using our friendly store builder. No coding skills necessary, we'll help with the rest.",
         "vision_nav": "Create Your Unique Style"   
     }
 

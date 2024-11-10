@@ -266,6 +266,124 @@ header button {
 
 
 
+.star {
+    position: absolute; /* Üstüne konumlandırmak için */
+    top: 50%; /* Üstten %50, yani ortalama */
+    left: 50%; /* Soldan %50, yani ortalama */
+    transform: translate(-50%, -50%); /* Tam merkezde konumlandırmak için */
+    z-index: 1; /* Üstte görünmesi için z-index */
+    width: 70%; /* İkon boyutu, isteğinize göre ayarlayabilirsiniz */
+  }
+  
+  .suc-image {
+    position: relative;
+    z-index: 0;
+  }
+
+
+
+.suc-left-side h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+   
+}
+.suc-left-side a {
+    font-size: 16px;
+    color:#008060;
+}
+.suc-left-side h5 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family:Arial;
+    font-weight: 400;
+    
+}
+
+.suc-left-side {
+    padding-right: 30px; 
+    margin-left: 60px;
+}
+
+
+.merch-left-side h5 {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.merch-left-side p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.merch-left-side h6 {
+    font-size: 17px;
+     
+}
+
+.merch-left-side {
+    padding-right: 30px; 
+}
+
+
+.accordion-section {
+    background-color: #008060;
+}
+
+.card-text {
+    color:#ccc;
+    font-size: 14px; 
+}
+
+.ac-panel a {
+    color: #000;
+}
+
+.ac {
+   background-color: transparent; 
+   color:#fff;
+   border: none;
+   
+}
+
+.ac-header button {
+    color:#fff !important;
+    font-size: 20px !important;
+}
+
+.ac-text {
+    color:#ccc !important; 
+    text-align: left;
+}
+
+
+.footer {
+    background-color:#004C3F;
+}
+
+.footer-center-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.footer-center-links a {
+    margin: 10px 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+
+select {
+    margin-top: 40px;
+}
+
+.footer-center h5 {
+    margin-top: 20px;
+}
+
+
+
 @media (min-width: 768px) {
     .header nav{
         display: flex;

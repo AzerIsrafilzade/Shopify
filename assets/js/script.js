@@ -105,3 +105,7 @@ const karusel = new Swiper(".shirketlerKaruseli", {
       },
   });
 
+new Accordion('.accordion-left');
+new Accordion('.accordion-right');
+
+
