@@ -42,7 +42,7 @@ const swiper = new Swiper(".visionSwiper", {
 
 {/*  */ }
 
-const visionDivi = document.querySelector("vision")
+const visionDivi = document.querySelector("#vision")
 
 
 window.addEventListener("load", getLocaldanMelumatlariGetir)
@@ -64,7 +64,7 @@ async function getLocaldanMelumatlariGetir() {
     <div class="card-body">
       <h5 class="card-title">${oneVision.vision_name}</h5>
       <p class="card-text">${oneVision.vision_context}</p>
-      <a class="card-nav">${oneVision.vision_nav}</a>
+      <a href= class="card-nav">${oneVision.vision_nav}</a>
 
     </div>
   </div>
@@ -79,3 +79,29 @@ async function getLocaldanMelumatlariGetir() {
     }
 
 }
+
+const karusel = new Swiper(".shirketlerKaruseli", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+  });
+

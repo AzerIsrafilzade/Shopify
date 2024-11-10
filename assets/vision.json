@@ -1,15 +1,41 @@
 [
     {
-        "vision_name": "Naxly Winners in Global Agency Awards",
-        "vision_context": "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "vision_name": "Store builder",
+        "vision_context": "Bring your vision to life with our easy-to-use store creator. No coding expertise required—just your next big idea.",
         "vision_nav": "Build the brand you want"
         
     },
 
     {
-        "vision_name": "Naxly Winners in Global Agency Awards",
-        "vision_context": "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "vision_name": "Themes",
+        "vision_context": "Select from hundreds of customizable templates crafted by a community of the world-class designers and experts.",
         "vision_nav": "Explore more Themes"   
+    },
+
+    {
+        "vision_name": "App store",
+        "vision_context": "Add more features and functionality to your online store with the app extensions from trusted and perfect Shopify partners.",
+        "vision_nav": "There's an app for that"
+        
+    },
+
+    {
+        "vision_name": "Marketplace Maker",
+        "vision_context": "Select from hundreds of customizable templates crafted by a community of the world-class designers and experts.",
+        "vision_nav": "Shape Your Identity"   
+    },
+
+    {
+        "vision_name": "Shop Designer",
+        "vision_context": "Bring your brand to life effortlessly with our intuitive shop designer. No technical knowledge required—only your unique vision and creativity.",
+        "vision_nav": "Design with Purpose"
+        
+    },
+
+    {
+        "vision_name": "Business Launcher",
+        "vision_context": "Build your online presence with ease using our friendly store builder. No coding skills necessary—just your passion and products, and we'll help with the rest.",
+        "vision_nav": "Create Your Unique Style"   
     }
 
     

@@ -183,7 +183,7 @@ header button {
 } 
 
 .discovery h1 {
-    font-size: 50px;
+    font-size: 40px;
     
 }
 
@@ -191,6 +191,8 @@ header button {
     background-color:#799102;
 
 }
+
+
 
 
 .visionSwiper .swiper-slide img {
@@ -201,14 +203,67 @@ header button {
 }
 
 .swiper-slide .card {
-    background-color: #0f1624;
-    color: #fff;
+    background-color:#008060;
+    color: #ccc;
+}
+
+.swiper-slide a {
+    color: #000;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: #2C3647;
     ;
 }
+
+.connect a {
+    color:#008060;
+
+}
+
+.sungls {
+    position: absolute; /* Üstüne konumlandırmak için */
+    top: 50%; /* Üstten %50, yani ortalama */
+    left: 50%; /* Soldan %50, yani ortalama */
+    transform: translate(-50%, -50%); /* Tam merkezde konumlandırmak için */
+    z-index: 1; /* Üstte görünmesi için z-index */
+    width: 70%; /* İkon boyutu, isteğinize göre ayarlayabilirsiniz */
+  }
+  
+  .con-image {
+    position: relative;
+    z-index: 0;
+  }
+
+.con-left-side h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.con-left-side a {
+    font-size: 16px;
+}
+.con-left-side h5 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family:Arial;
+    font-weight: 400;
+    
+}
+
+.con-left-side {
+    padding-right: 30px; 
+}
+
+.shirketlerKaruseli img {
+    width: 200px;
+    height: 59px;
+
+}
+
+.companies {
+    background-color: #008060;
+}
+
 
 
 @media (min-width: 768px) {
