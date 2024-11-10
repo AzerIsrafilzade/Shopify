@@ -193,6 +193,24 @@ header button {
 }
 
 
+.visionSwiper .swiper-slide img {
+    width: 73px;
+    height: 69px;
+    margin: 20px auto;
+    display: block;
+}
+
+.swiper-slide .card {
+    background-color: #0f1624;
+    color: #fff;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #2C3647;
+    ;
+}
+
+
 @media (min-width: 768px) {
     .header nav{
         display: flex;

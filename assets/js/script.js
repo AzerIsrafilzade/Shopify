@@ -4,50 +4,78 @@ const mobileMenyu = document.querySelector(".mobile-menyu")
 const closeIcon = document.querySelector(".fa-circle-xmark")
 
 
-navbarBtn.addEventListener("click", function() {
+navbarBtn.addEventListener("click", function () {
     mobileMenyu.classList.add("aktiv")
 })
 
-closeIcon.addEventListener("click", function() {
-  
+closeIcon.addEventListener("click", function () {
+
     mobileMenyu.classList.remove("aktiv")
 })
 
 
+const swiper = new Swiper(".visionSwiper", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
 
-const byShopifyDivi = document.querySelector("byShopify")
+    },
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+        },
+    },
+
+});
+
+{/*  */ }
+
+const visionDivi = document.querySelector("vision")
 
 
-window.addEventListener("load",getLocaldanMelumatlariGetir)
+window.addEventListener("load", getLocaldanMelumatlariGetir)
 
 async function getLocaldanMelumatlariGetir() {
-  const unvan = "assets/bySopify.json"
+    const unvan = "assets/vision.json"
 
 
-  try {
-    const gelenCavab = await fetch (unvan)
-   
-    const mukafatlar = await gelenCavab.json()
+    try {
+        const gelenCavab = await fetch(unvan)
+
+        const vision = await gelenCavab.json()
 
 
-    byShopify.forEach(function(oneByShopify) {
-      byShopifyrDivi.innerHTML += `
-      <div class="swiper-slide text-center">
-<div class="card rounded-0">
-    <img src="${oneByShopify.byShopify_image}" class="card-img-top" alt="...">
+        vision.forEach(function (oneVision) {
+            visionDivi.innerHTML += `
+<div class="swiper-slide text-center">
+ <div class="card rounded-0">
     <div class="card-body">
-      <h5 class="card-title">${oneByShopify.byShopify_name}</h5>
-      <p class="card-text">${oneByShopify.byShopify_context}</p>
+      <h5 class="card-title">${oneVision.vision_name}</h5>
+      <p class="card-text">${oneVision.vision_context}</p>
+      <a class="card-nav">${oneVision.vision_nav}</a>
+
     </div>
   </div>
 </div>
       `
-  });
+        });
 
-}
+    }
 
-catch(err) {
+    catch (err) {
 
-}
-  
+    }
+
 }
