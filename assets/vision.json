@@ -2,14 +2,16 @@
     {
         "vision_name": "Store builder",
         "vision_context": "Bring your vision to life with our easy-to-use store creator. No coding expertise required—just your next big idea.",
-        "vision_nav": "Build the brand you want"
+        "vision_nav": "Build the brand you want",
+        "vision_image": "https://cdn.shopify.com/s/files/1/0070/7032/articles/Header_4bf3c320-7c35-478b-8159-5f5d360f9d92.png?v=1729897444&originalWidth=1848&originalHeight=782&width=1800"
         
     },
 
     {
         "vision_name": "Themes",
         "vision_context": "Select from hundreds of customizable templates crafted by a community of the world-class designers and experts.",
-        "vision_nav": "Explore more Themes"   
+        "vision_nav": "Explore more Themes", 
+        "vision_image2": "https://media.istockphoto.com/id/1428709516/photo/shopping-online-woman-hand-online-shopping-on-laptop-computer-with-virtual-graphic-icon.jpg?s=2048x2048&w=is&k=20&c=G1weAIS9G510Ye8mTY3ZUKLTgBUiHiSY3r0BZxM5Uwo="
     },
 
     {
@@ -22,7 +24,8 @@
     {
         "vision_name": "Marketplace Maker",
         "vision_context": "Select from hundreds of customizable templates crafted by a community of the world-class designers and experts.",
-        "vision_nav": "Shape Your Identity"   
+        "vision_nav": "Shape Your Identity",
+        "vision_image":"https://neilpatel.com/wp-content/uploads/2015/04/ecommerce.jpg"   
     },
 
     {

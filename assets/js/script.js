@@ -65,9 +65,13 @@ async function getLocaldanMelumatlariGetir() {
       <h5 class="card-title">${oneVision.vision_name}</h5>
       <p class="card-text">${oneVision.vision_context}</p>
       <a href= class="card-nav">${oneVision.vision_nav}</a>
-
     </div>
+
   </div>
+  <img src="${oneVision.vision_image}" class=" fixed-size card-img-top" alt="...">
+  <img src="${oneVision.vision_image2}" class=" fixed-size card-img-top" alt="...">
+</div>
+
 </div>
       `
         });
@@ -155,12 +159,6 @@ playIconBtn.addEventListener("click", modaliAc)
 modaliBaglaIconu.addEventListener("click", modaliBagla)
 
 
-// const getProductsButton = document.getElementById("get-products")
-
-// getProductsButton.addEventListener("click", async function getproducts () {
-
-
-
 
 
 
@@ -186,9 +184,9 @@ modaliBaglaIconu.addEventListener("click", modaliBagla)
 //           </a>
 //           <div class="px-5 pb-5">
 //               <a href="#">
-//                   <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+//                   <h6 class="text-s mb-5 font-semibold tracking-tight text-gray-900 dark:text-white">
 //                       ${mehsullar[i].title}
-//                   </h5>
+//                   </h6>
 //               </a>
 //               <div class="flex items-center mt-2.5 mb-5">
 //                   <div class="flex items-center space-x-1 rtl:space-x-reverse">
@@ -219,10 +217,10 @@ modaliBaglaIconu.addEventListener("click", modaliBagla)
 //                       </svg>
 //                   </div>
 //                   <span
-//                       class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3"> ${mehsullar[i].rating.rate}</span>
+//                       class="bg-blue-100 flex mb-auto text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3"> ${mehsullar[i].rating.rate}</span>
 //               </div>
-//               <div class="flex items-center justify-between">
-//                   <span class="text-3xl font-bold text-gray-900 dark:text-white"> ${mehsullar[i].price} &#8380; </span>
+//               <div class="flex mt-auto items-center justify-between">
+//                   <span class="text-lg font-bold text-gray-900 dark:text-white"> ${mehsullar[i].price} &#8380; </span>
 //                   <a href="#"
 //                       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add
 //                       to cart</a>
@@ -240,3 +238,6 @@ modaliBaglaIconu.addEventListener("click", modaliBagla)
 
 
 // }
+
+
+

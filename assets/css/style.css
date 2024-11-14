@@ -251,7 +251,13 @@ header button {
 
 .swiper-slide a {
     color: #000;
+    margin-top: 10px;
+    font-size: 15px;
+
+    
 }
+
+
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: #2C3647;
@@ -369,6 +375,10 @@ header button {
     background-color: #008060;
 }
 
+.accordion-section .h2 {
+    font-size: 50px;
+}
+
 .card-text {
     color:#ccc;
     font-size: 14px; 
@@ -436,13 +446,13 @@ select {
     margin-top: 20px;
 }
 
-/* .product-image {
+.product-image {
     width: 300px;
     height: 300px;
     display: block;
     margin: 0 auto;
-    
-} */
+    object-fit: contain; 
+}
 
 @media (min-width: 768px) {
     .header nav{
